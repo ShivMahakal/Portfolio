@@ -1,0 +1,449 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+  <!-- intro section -->
+  <div class="h-[71vh] lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
+
+    <nav class="fixed top-0 bg-white w-full z-10 dark:bg-slate-900">
+
+      <div class="container items-center mx-auto py-5 flex justify-between md:w-[1200px] px-5">
+      
+        <div class="flex items-center gap-2">
+          <img src="./img/react.svg" alt="" class="w-10">
+          <span class="text-2xl font-semibold text-indigo-900">Portfolio</span>
+
+        </div>
+
+        <ul class="hidden md:flex space-x-10 text-green-900 font-semibold text-sm uppercase ">
+          <li class="hover:text-blue-800">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:text-blue-800">
+            <a href="#about">About me</a>
+          </li>
+          <li class="hover:text-blue-800">
+            <a href="#services">Services</a>
+          </li>
+          <li class="hover:text-blue-800">
+            <a href="#works">Works</a>
+          </li>
+          <li class="hover:text-blue-800">
+            <a href="#contact">Contact </a>
+          </li>
+          
+        </ul>
+          <img src="./img/moon.png" alt="" class="hidden md:block w-7 cursor-pointer">
+
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-10 bg-indigo-500 pt-4 pb-4 pl-4 pr-4 rounded-full">
+
+            <div class="w-6 h-0.5 bg-white"></div>
+            <div class="w-6 h-0.5 bg-white"></div>
+            <div class="w-6 h-0.5 bg-white"></div>
+
+          </div>
+
+          <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full h-screen p-10  text-white space-y-8  text-center">
+            <li class="hover:text-blue-800">
+              <a id="hLink" href="#">Home</a>
+            </li>
+            <li class="hover:text-blue-800">
+              <a id="hLink" href="#about">About me</a>
+            </li>
+            <li class="hover:text-blue-800">
+              <a id="hLink" href="#services">Services</a>
+            </li>
+            <li class="hover:text-blue-800">
+              <a id="hLink" href="#works">Works</a>
+            </li>
+            <li class="hover:text-blue-800">
+              <a id="hLink" href="#contact">Contact </a>
+            </li>
+            
+          </ul>
+
+      </div>
+    </nav>
+
+      <!-- intro -->
+
+      <!-- Image -->
+
+      <img src="./img/me.png" class="absolute h-5/6 object-cover lg:left-0 mx-auto bottom-0 right-0 " alt="">
+
+      <!-- circle -->
+
+      <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-[650px] h-[650px] -z-10 overflow-hidden bg-indigo-900 rounded-full"></div>
+
+      <!-- animated text -->
+
+      <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-20 xl-left-48 xl:text-7xl font-semibold">
+        <span class="text-indigo-800">Freelencer</span>
+        <p id="text" class="text-red-500"> </p>
+      </div>
+
+
+      <!-- texts -->
+    <div class="hidden lg:flex flex-col absolute top-0 right-10 bottom-0 m-auto bg-white p-6 h-fit w-1/3 gap-5 rounded-md shadow-lg">
+
+      <h1 class="text-4xl text-indigo-800 font-semibold">Hi, I'm Shivam</h1>
+      <p>With over 2 years of design and experience on web design and development. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta facere et ullam vel debitis totam ex, delectus corrupti obcaecati.</p>
+
+      <a href="#contact" class="bg-indigo-600 text-white text-xl w-fit p-3">Hire me</a>
+
+    </div>
+
+  </div>
+
+<!-- About Section -->
+<div id ="about" class="px-10 overflow-hidden">
+    <div class="container md:w-[1200px] mx-auto py-10 lg:py-30  flex gap-20 flex-col-reverse items-center lg:flex-row">
+
+      <!-- left-div -->
+
+      <div class="relative w-[70%] lg:w-[30%]">
+
+        <img class="w-auto h-1/3 -z-10 absolute top-0 left-0" src="./img/grid.png" alt="">
+          <div class="h-full overflow-hidden">
+
+            <img src="./img/about.jpg" class="w-1/1 h-auto rounded-full border-2 shadow-lg  border-indigo-500/100" alt="">
+            
+          </div>
+      </div>
+
+      <!-- Right div -->
+
+        <div class="my-auto flex flex-col gap-3 w-auto lg:w-[70%] overflow-hidden">
+          <h2 class="text-indigo-600 font-bold">ABOUT ME</h2>
+          <h1 class="text-2xl lg:text-4xl text-zinc-900 font-medium">Better Design</h2>
+          <h1 class="text-2xl lg:text-4xl text-zinc-900 font-medium">Better Experience</h2>
+
+            <p class="text-gray-600 overflow-hidden">With over 2 years of design and experience on web design and development. I Design and Develop Beautiful Mobile Applications and Website.</p>
+
+            <h2 class="text-gray-600 font-medium text-1xl">HTML</h2>
+            <div class="w-full bg-gray-200 h-[6px] rounded-md">
+
+              <div class="w-full bg-indigo-600 h-[6px] rounded-md"></div>
+
+            </div>
+
+            
+            <h2 class="text-gray-600 font-medium text-1xl">Javascript</h2>
+            <div class="w-full bg-gray-200 h-[6px] rounded-md">
+
+              <div class="w-4/6 bg-indigo-600 h-[6px] rounded-md"></div>
+
+            </div>
+
+
+            
+            <h2 class="text-gray-600 font-medium text-1xl">React</h2>
+            <div class="w-full bg-gray-200 h-[6px] rounded-md">
+
+              <div class="w-5/6 bg-indigo-600 h-[6px] rounded-md"></div>
+
+            </div>
+
+        </div>
+
+
+
+      <div>
+
+
+
+      </div>
+
+
+    </div>
+</div>
+
+<!-- Services -->
+
+<div id="services" class="px-10 py-20 overflow-hidden">
+
+  <div class="container mx-auto xl:w-[1200px]">
+
+    <div class="item-center flex flex-col gap-3">
+        <!-- top -->
+        
+        <div class="item-center flex flex-col">
+          <h1 class="text-indigo-600 text-center">Services</h1>
+          <h1 class="text-3xl text-center">What Do I Offer?</h1>
+          
+        <p class="mx-auto mt-2 text-gray-600 w-1/2 text-center">With over 2 years of design and experience on web design and development. I Design and Develop Beautiful Mobile Applications and Website.
+
+        </p>
+        </div>
+
+        <!-- bottom -->
+
+        <div class="flex sm:p-0 flex-wrap py-10">
+
+          <!-- card -->
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-9">
+
+            
+              <img src="./img/ui-ux.png" class="w-1/3 h-auto" alt="">
+
+              <h1 class="text-gray-800 text-lg">UI/UX</h1>
+
+              <p>I specialize in creating interative websites for individuals and small businesses.</p>
+
+              <a href="" class="text-indigo-600 font-semibold text-sm">Read More</a>
+
+          </div>
+
+           <!-- card -->
+           <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-9">
+
+            
+            <img src="./img/website.png" class="w-1/3 h-auto" alt="">
+
+            <h1 class="text-gray-800 text-lg">Website Design</h1>
+
+            <p>I specialize in creating interative websites for individuals and small businesses.</p>
+
+            <a href="" class="text-indigo-600 font-semibold text-sm">Read More</a>
+
+           </div>
+
+
+         <!-- card -->
+        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-9">
+
+            
+          <img src="./img/mobile-app.png" class="w-1/3 h-auto" alt="">
+
+          <h1 class="text-gray-800 text-lg">Mobile App</h1>
+
+          <p>I specialize in creating interative websites for individuals and small businesses.</p>
+
+          <a href="" class="text-indigo-600 font-semibold text-sm">Read More</a>
+
+        </div>
+
+
+       <!-- card -->
+      <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-9">
+
+            
+        <img src="./img/product-design.png" class="w-1/3 h-auto" alt="">
+
+        <h1 class="text-gray-800 text-lg">Product Design</h1>
+
+        <p>I specialize in creating interative websites for individuals and small businesses.</p>
+
+        <a href="" class="text-indigo-600 font-semibold text-sm">Read More</a>
+
+      </div>
+
+
+     <!-- card -->
+    <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-9">
+
+            
+      <img src="./img/ui-ux.png" class="w-1/3 h-auto" alt="">
+
+      <h1 class="text-gray-800 text-lg">UI/UX</h1>
+
+      <p>I specialize in creating interative websites for individuals and small businesses.</p>
+
+      <a href="" class="text-indigo-600 font-semibold text-sm">Read More</a>
+
+    </div>
+
+
+   <!-- card -->
+  <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-9">
+
+            
+    <img src="./img/ui-ux.png" class="w-1/3 h-auto" alt="">
+
+    <h1 class="text-gray-800 text-lg">UI/UX</h1>
+
+    <p>I specialize in creating interative websites for individuals and small businesses.</p>
+
+    <a href="" class="text-indigo-600 font-semibold text-sm">Read More</a>
+
+  </div> 
+
+          
+        </div>
+
+
+    </div>
+
+   </div>
+
+</div>
+
+
+<!-- Portfolio Work -->
+
+<div id="works" class="px-10 py-20 overflow-hidden">
+
+  <div class="container mx-auto xl:w-[1200px]">
+
+    <div class="item-center flex flex-col gap-3">
+        <!-- top -->
+        
+        <div class="item-center flex flex-col">
+          <h1 class="text-indigo-600 text-center">Portfolio</h1>
+          <h1 class="text-3xl text-center">My Projects & Work</h1>
+          
+        <p class="mx-auto mt-2 text-gray-600 w-1/2 text-center">With over 2 years of design and experience on web design and development. I Design and Develop Beautiful Mobile Applications and Website.
+
+        </p>
+        </div>
+
+        <!-- bottom -->
+
+        <div class="flex sm:p-0 flex-wrap py-10">
+
+          <!-- card -->
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-2 flex flex-col gap-3 my-3 md:my-9">
+
+            
+              <img src="./img/pest-control.png" class=" h-auto object-cover border-gray-200 border-2" alt="">
+
+             
+
+          </div>
+
+           <!-- card -->
+           <div class="w-full md:w-4/12 shadow-xl rounded-lg p-2 flex flex-col gap-3 my-3 md:my-9">
+
+            
+            <img src="./img/immigration.png" class=" h-auto object-cover border-gray-200 border-2" alt="">
+
+            
+           </div>
+
+
+         <!-- card -->
+        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-2 flex flex-col gap-3 my-3 md:my-9">
+
+            
+          <img src="./img/universal-sikhs.png" class=" h-auto object-cover border-gray-200 border-2" alt="">
+
+
+        </div>
+
+
+       <!-- card -->
+      <div class="w-full md:w-4/12 shadow-xl rounded-lg p-2 flex flex-col gap-3 my-3 md:my-9">
+
+            
+        <img src="./img/ligl.png" class=" h-auto object-cover border-gray-200 border-2" alt="">
+
+
+      </div>
+
+
+     <!-- card -->
+    <div class="w-full md:w-4/12 shadow-xl rounded-lg p-2 flex flex-col gap-3 my-3 md:my-9">
+
+            
+      <img src="./img/driving-school.png" class="object-cover border-gray-200 border-2 h-auto" alt="">
+
+
+    </div>
+
+
+   <!-- card -->
+  <div class="w-full md:w-4/12 shadow-xl rounded-lg p-2 flex flex-col gap-3 my-3 md:my-9">
+
+            
+    <img src="./img/gup.png" class="object-cover h-auto border-gray-200 border-2" alt="">
+
+
+  </div> 
+
+          
+        </div>
+
+
+    </div>
+
+   </div>
+
+</div>
+
+<!-- contact us -->
+
+<div id="contact">
+
+  <div class="container mx-auto xl:w-[1200px]">
+
+    <!-- top -->
+
+    <div>
+
+      <div class="item-center flex flex-col">
+        <h1 class="text-indigo-600 text-center">Contact Us</h1>
+        <h1 class="text-3xl text-center">Have Question ?</h1>
+        
+      <p class="mx-auto mt-2 text-gray-600 w-1/2 text-center">With over 2 years of design and experience on web design and development. I Design and Develop Beautiful Mobile Applications and Website.
+
+      </p>
+
+
+    </div>
+    <!-- bottom -->
+
+    <form action="" class="flex flex-col mx-auto gap-5 items-center mt-5 p-8 ">
+
+      <input type="text" name="name" placeholder="Name" class="w-full ring-1 p-2 ring-indigo-300 rounded-sm md:w-1/2">
+      <input type="email" name="email" placeholder="Email address" class="w-full ring-1 p-2 ring-indigo-300 rounded-sm md:w-1/2">
+      <textarea  cols="30" rows="10" placeholder="Message" class="w-full ring-1 p-2 ring-indigo-300 rounded-sm md:w-1/2"></textarea>
+     <button class="w-1/2 font-medium bg-indigo-600 text-white px-3 py-2 rounded-md cursor-pointer" value="Submit"> Submit</button>
+
+    </form> 
+
+  </div>
+
+</div>
+
+
+<!-- footer -->
+
+
+<div class="bg-gray-800 w-full ">
+
+  <div class="container items-center mx-auto py-5 flex justify-between md:w-[1200px] px-5">
+  
+    <div class="flex items-center gap-2">
+      <img src="./img/react.svg" alt="" class="w-10">
+      <span class="text-2xl font-semibold text-white ">Portfolio</span>
+
+    </div>
+    <span class="hidden md:block font-medium text-white">© 2022 Porfolio Design with ❤️ by Shivam Kumar Tripathi. All Rights Reserved.
+    </span>
+
+
+    <div class="flex gap-2">
+      <img class=" cursor-pointer" src="img/facebook.png" alt="">
+      <img class=" cursor-pointer" src="img/linkedin.png" alt="">
+      <img class=" cursor-pointer" src="img/insta.png" alt="">
+      <img class=" cursor-pointer" src="img/youtube.png" alt="">
+
+    </div>
+      
+
+  </div>
+</div>
+
+
+
+</body>
+<script src="./app.js"></script>
+<script src="./autotyping.js"></script>
+</html>
